@@ -1,0 +1,169 @@
+html { 
+    background: url(https://images.hdqwalls.com/download/minimalist-mountains-black-and-white-ap-1280x720.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .container 		{ 
+    font-family:'Roboto';
+    width:150px; 
+    margin:30px auto 0; 
+    display:block; 
+    background:#fff;
+    padding:50px 200px 50px;
+    top: -10px;
+  }
+  h2 		 { 
+    font-family:"Lato";
+    text-align:center; 
+    margin-bottom:50px; 
+  }
+  h2 small { 
+    font-weight:normal; 
+    color:#888; 
+    display:block; 
+  }
+  .footer 	{ text-align:center; }
+  .footer a  { color:#53B2C8; }
+  
+  
+  .group 			  { 
+    position:relative; 
+    margin-bottom:45px; 
+  }
+  input 				{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:300px;
+    border:none;
+    border-bottom:1px solid #757575;
+  }
+  input:focus 		{ outline:none; }
+  
+  
+  label 				 {
+    color:#000000; 
+    font-size:18px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:10px;
+    top:10px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  
+  
+  input:focus ~ label, input:valid ~ label 		{
+    top:-20px;
+    font-size:14px;
+    color:#000000;
+  }
+  
+  
+  .bar 	{ position:relative; display:block; width:315px; }
+  .bar:before, .bar:after 	{
+    content:'';
+    height:2px; 
+    width:0;
+    bottom:1px; 
+    position:absolute;
+    background:#000000; 
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  .bar:before {
+    left:50%;
+  }
+  .bar:after {
+    right:50%; 
+  }
+  
+  
+  input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width:50%;
+  }
+  
+  
+  .highlight {
+    position:absolute;
+    height:60%; 
+    width:100px; 
+    top:25%; 
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+  }
+  
+  
+  input:focus ~ .highlight {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+  }
+  @-webkit-keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  @-moz-keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  @keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  html,body{
+    height:10%;
+  }
+  body:before{
+    content:'';
+    height:10%;
+    display:inline-block;
+    vertical-align:middle;
+  }
+  button{
+    background:#ffffff;
+    color:#000000;
+    border:none;
+    position:relative;
+    height:50px;
+    width:200px;
+    font-size:1.6em;
+    top:50px;
+    padding:.1em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  button:hover{
+    background:#000000;
+    color:#ffffff;
+  }
+  button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #ffffff;
+    transition:400ms ease all;
+  }
+  button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  h1{
+    font-family:"courier";
+  }

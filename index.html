@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>
+      LOGIN AUTHENTICATION
+    </title>
+  </head>
+  <style>
+    #gamma {
+      padding:10px;
+        background-color:black;
+      font-size:20px;
+      border-radius:10px;
+      color:white;
+    }
+  </style>
+  <body> 
+    <script src="script.js">
+    </script>
+    <center> <h1> Login </h1> </center>
+     <p align="center">
+    
+    <div class="container">
+     <h2> WELCOME </h2>
+  <form name="myform" method="post" onsubmit="return validateform()">
+    <div class="group"> 
+      <input type="text" required = "required" name = "name">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label><b>Email</b></label>
+    </div>  
+    <div class="group">      
+      <input type="password" name="password" size="15"
+ maxlength="30" required = "required" name = "beta"/>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label><b>Password</b></label> 
+    </div> 
+</div>
+      </p>  
+  </form>  
+  <p> 
+    <center> 
+        <a href = "#">
+       <button onclick = "return validateform()">
+         <b> Login </b>
+      </button>
+      </a>
+    </center>
+    </p>
+  </body>
+</html>
